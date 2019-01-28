@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body,
+.container,
+.form {
+  height: 100%;
+}
+
+body {
+  background-color: #324296;
+  color: white;
+  font-family: sans-serif;
+  font-size: 2em;
+  margin: 0;
+}
+
+.form,
+.form__group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.group__input {
+  color: #444;
+  margin: 0 15px;
+  padding: 5px;
+}
